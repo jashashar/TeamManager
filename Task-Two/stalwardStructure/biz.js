@@ -6,7 +6,7 @@
       addEvents();
     } else {
       apiObj
-        .apiCall("GET", "../js/api.json")
+        .apiCall("GET", "Task-Two/js/api.json")
         .then(function (response) {
           console.log(response);
           var data = JSON.parse(response).items;
