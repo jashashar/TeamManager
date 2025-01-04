@@ -1,0 +1,50 @@
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+.container.cardSection {
+  display: flex;
+}
+.container .card {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.container .card .cardBody {
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 5px white;
+  width: 20%;
+  margin: 20px 80px;
+}
+.container .card .cardBody .cardImage {
+  padding-top: 20px;
+}
+.container .card .cardBody .cardImage img {
+  border-radius: 50%;
+  padding: 3px;
+  width: 40%;
+  background-color: white;
+}
+.container .card .cardBody .content h2 {
+  padding: 5px 0;
+  margin: 10px;
+}
+.container .card .cardBody .button button {
+  cursor: pointer;
+  padding: 5px 30px;
+  margin: 30px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: linear-gradient(to right, rgb(6, 211, 54) 20%, rgb(33, 152, 43));
+  box-shadow: 0 0 5px black;
+  color: black;
+}
+.container .card .cardBody .button button.removeBtnActivated {
+  background: linear-gradient(to right, rgb(214, 21, 21) 20%, rgb(117, 33, 33));
+}
+.container .card .cardBody .button button:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=employee.css.map */

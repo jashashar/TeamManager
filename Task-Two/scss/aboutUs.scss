@@ -1,0 +1,42 @@
+.about-us {
+  max-width: 90%;
+  margin: 0 auto;
+
+  h2 {
+    margin: 0 50px;
+    font-size: 25px;
+  }
+
+  .aboutUs-image {
+    text-align: center;
+
+    img {
+      width: 40%;
+    }
+  }
+
+  .paragraph {
+    max-width: 90%;
+    margin: 10px auto 0;
+
+    p {
+      line-height: 1.5;
+      margin: 20px;
+    }
+  }
+
+  .goToContact {
+    text-align: center;
+    margin: 20px 0;
+
+    a {
+      cursor: pointer;
+      color: blue;
+      text-decoration: underline;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}

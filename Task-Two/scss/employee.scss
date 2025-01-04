@@ -1,0 +1,116 @@
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  position: relative;
+
+  &.cardSection {
+    display: flex;
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    // width: 80%;
+
+    .cardBody {
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 0 5px white;
+      width: 20%;
+      margin: 20px 80px;
+      // margin: 20px 40px;
+
+      .cardImage {
+        padding-top: 20px;
+
+        img {
+          border-radius: 50%;
+          padding: 3px;
+          width: 40%;
+          // width: 50%;
+          background-color: white;
+        }
+      }
+
+      .content {
+        h2 {
+          padding: 5px 0;
+          margin: 10px;
+        }
+      }
+
+      .button {
+        button {
+          cursor: pointer;
+          padding: 5px 30px;
+          margin: 30px 10px;
+          // margin: 10px;
+          border: 2px solid black;
+          border-radius: 10px;
+          background: linear-gradient(
+            to right,
+            rgb(6, 211, 54) 20%,
+            rgb(33, 152, 43)
+          );
+          box-shadow: 0 0 5px black;
+          color: black;
+
+          &.removeBtnActivated {
+            background: linear-gradient(
+              to right,
+              rgb(214, 21, 21) 20%,
+              rgb(117, 33, 33)
+            );
+          }
+
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+  }
+
+  //   .myTeam {
+  //     display: flex;
+  //     align-items: center;
+  //     flex-direction: column;
+
+  //     .myTeam-card {
+  //       margin: 0 30px;
+  //     }
+
+  //     .myTeam-cardBody {
+  //       display: flex;
+  //       justify-content: space-between;
+  //       align-items: center;
+  //       padding: 5px;
+  //       margin: 10px 0;
+  //       border: 1px solid;
+  //       border-radius: 10px;
+
+  //       .myTeam-cardImage {
+  //         width: 15%;
+
+  //         img {
+  //           width: 100%;
+  //           border-radius: 10px;
+  //         }
+  //       }
+  //       button {
+  //         cursor: pointer;
+  //         padding: 5px;
+  //         border-radius: 10px;
+  //         background: grey;
+  //         border: 1px solid black;
+
+  //         &:hover {
+  //           background: rgb(178, 169, 169);
+  //           color: black;
+  //         }
+  //       }
+  //     }
+  // }
+}

@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.card .noTeamFound {
+  margin: 10% 0;
+  font-size: 40px;
+}
+.card.empty {
+  font-size: 40px;
+  margin: 10% 0;
+}
+.card .cardBody {
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 5px white;
+  width: 25%;
+  margin: 20px;
+}
+.card .cardBody .cardImage {
+  padding-top: 20px;
+}
+.card .cardBody .cardImage img {
+  padding: 3px;
+  height: 150px;
+  width: 40%;
+  background-color: white;
+}
+.card .cardBody .content h2 {
+  padding: 5px 0;
+  margin: 10px auto;
+  border: 1px solid white;
+  max-width: 60%;
+}
+.card .cardBody .content p {
+  margin: 20px 0 0;
+}
+.card .cardBody .button button {
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px 0 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background: linear-gradient(to right, rgb(214, 21, 21) 20%, rgb(117, 33, 33));
+  box-shadow: 0 0 5px black;
+  color: white;
+}
+.card .cardBody .button button:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=myTeam.css.map */
